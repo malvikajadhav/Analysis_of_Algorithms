@@ -10,6 +10,10 @@ using namespace std;
      a = b;
      b = temp;
 
+     a = a^b;
+     b = a^b;
+     a = a^b;
+  
      cout<<"After swapping:";
      cout<<a<<" "<<b;
      return 0;
