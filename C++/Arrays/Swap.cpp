@@ -14,6 +14,8 @@ using namespace std;
      b = a^b;
      a = a^b;
   
+     swap(a,b);
+  
      cout<<"After swapping:";
      cout<<a<<" "<<b;
      return 0;
